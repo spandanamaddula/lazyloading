@@ -1,0 +1,11 @@
+import React from 'react';
+function LazyLoadedComponent() {
+  return (
+    <div>
+      <h1>React Lazy Loading with Suspense</h1>
+      <LazyLoadedComponent />
+    </div>
+  );
+}
+
+export default  LazyLoadedComponent;

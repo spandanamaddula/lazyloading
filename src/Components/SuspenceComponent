@@ -1,0 +1,13 @@
+import React from 'react';
+
+function SuspenseComponent() {
+  return (
+    <div>
+      <h2>Suspense Component</h2>
+      <p>This is the suspense component loaded lazily</p>
+    </div>
+  );
+}
+
+export default SuspenseComponent;
+
